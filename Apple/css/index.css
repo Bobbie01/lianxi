@@ -1,0 +1,837 @@
+.apple > header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+header > .wrapper {
+  height: 40px;
+  background-color: rgb(68, 68, 68);
+}
+
+header > .wrapper > .wrapper_text {
+  width: 976px;
+  height: 40px;
+  margin: 0 auto;
+  line-height: 40px;
+  text-align: right;
+  font-size: 12px;
+}
+
+header > .wrapper > .wrapper_text > span {
+  color: #a8a8aa;
+}
+
+header > .wrapper > .wrapper_text > span::before {
+  content: "<";
+}
+
+header > .wrapper > .wrapper_text > span::after {
+  content: ">";
+}
+
+header > nav {
+  height: 44px;
+  background-color: rgb(51, 51, 51);
+}
+
+header > nav > ul {
+  display: flex;
+  width: 996px;
+  height: 44px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header > nav > ul > li {
+  height: 44px;
+  padding: 0 8px;
+  line-height: 44px;
+}
+
+header > nav > ul > li > a {
+  color: #d6d6d6;
+  font-size: 12px;
+}
+
+header > nav > ul > li > a:hover {
+  color: #f5f5f7;
+}
+
+header > nav > ul > .logo > a {
+  display: block;
+  width: 30px;
+  height: 44px;
+  background-image: url("../img/background-img/logo.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 14px 44px;
+}
+
+header > nav > ul > .logo > a > span {
+  font-size: 0;
+}
+
+header > nav > ul > .search > a {
+  display: block;
+  width: 30px;
+  height: 44px;
+  background: url("../img/background-img/search.svg") no-repeat center 0px /
+    auto;
+}
+
+header > nav > ul > .bag > a {
+  display: block;
+  width: 30px;
+  height: 44px;
+  background: url("../img/background-img/bag.svg") no-repeat center 0px / auto;
+}
+
+/* main */
+main{
+  margin-top: 84px;
+}
+main > .top {
+  background-color: rgb(245, 245, 247);
+}
+
+main > .top > .shopping_online {
+  width: 344px;
+  height: 45px;
+  margin: 0 auto;
+  font-size: 12px;
+  line-height: 45px;
+}
+
+main > .top > .shopping_online > a {
+  color: #06c;
+}
+
+main > .product > .iPad {
+  position: relative;
+  width: 100%;
+  height: 692px;
+}
+
+main > .product > .iPad > a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url(../img/background-img/ipad.jpg) no-repeat center;
+}
+
+main > .product > .iPad > .info {
+  position: absolute;
+  width: 902px;
+  height: 181px;
+  top: 40%;
+  margin-left: 38%;
+  text-align: center;
+  cursor: pointer;
+}
+
+main > .product > .iPad > .info > h2 {
+  height: 60px;
+  font-size: 46px;
+  font-weight: 600;
+  line-height: 60px;
+}
+
+main > .product > .iPad > .info > h3 {
+  height: 31px;
+  margin-top: 6px;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 31px;
+}
+
+main > .product > .iPad > .info > p {
+  height: 25px;
+  margin-top: 15px;
+  font-size: 21px;
+  font-weight: 400;
+  color: #6e6e73;
+  line-height: 25px;
+}
+
+main > .product > .iPad > .info > a {
+  display: block;
+  height: 29px;
+  margin-top: 15px;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+main > .product > .iPad > .info > a > span {
+  color: #06c;
+}
+
+main > .product > .iPad > .info > a > span::after {
+  content: ">";
+}
+
+main > .product > .iPad > .info > a > span:last-child {
+  margin-left: 35px;
+}
+
+main > .product > .iPad > .info > a > span:hover {
+  text-decoration: underline;
+}
+
+main > .product > .iPone14_pro {
+  position: relative;
+  height: 692px;
+}
+
+main > .product > .iPone14_pro > a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url(../img/background-img/iPhone14-pro.jpg) no-repeat center;
+}
+
+main > .product > .iPone14_pro > .info {
+  position: absolute;
+  width: 902px;
+  height: 181px;
+  top: 55px;
+  margin-left: 18%;
+  text-align: center;
+  cursor: pointer;
+}
+
+main > .product > .iPone14_pro > .info > h2 {
+  height: 60px;
+  color: #f5f5f7;
+  font-size: 46px;
+  font-weight: 600;
+  line-height: 60px;
+}
+
+main > .product > .iPone14_pro > .info > h3 {
+  height: 31px;
+  margin-top: 6px;
+  color: #f5f5f7;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 31px;
+}
+
+main > .product > .iPone14_pro > .info > a {
+  display: block;
+  height: 29px;
+  margin-top: 26px;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+main > .product > .iPone14_pro > .info > a > span {
+  color: #06c;
+}
+
+main > .product > .iPone14_pro > .info > a > span::after {
+  content: ">";
+}
+
+main > .product > .iPone14_pro > .info > a > span:last-child {
+  margin-left: 35px;
+}
+
+main > .product > .iPone14_pro > .info > a > span:hover {
+  text-decoration: underline;
+}
+
+main > .product > .iPone14 {
+  position: relative;
+  height: 692px;
+}
+
+main > .product > .iPone14 > a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url(../img/background-img/iPhone14.jpg) no-repeat center;
+}
+
+main > .product > .iPone14 > .info {
+  position: absolute;
+  width: 902px;
+  height: 181px;
+  top: 55px;
+  margin-left: 18%;
+  text-align: center;
+  cursor: pointer;
+}
+
+main > .product > .iPone14 > .info > h2 {
+  height: 60px;
+  font-size: 46px;
+  font-weight: 600;
+  line-height: 60px;
+}
+
+main > .product > .iPone14 > .info > h3 {
+  height: 31px;
+  margin-top: 6px;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 31px;
+}
+
+main > .product > .iPone14 > .info > a {
+  display: block;
+  height: 29px;
+  margin-top: 26px;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+main > .product > .iPone14 > .info > a > span {
+  color: #06c;
+}
+
+main > .product > .iPone14 > .info > a > span::after {
+  content: ">";
+}
+
+main > .product > .iPone14 > .info > a > span:last-child {
+  margin-left: 35px;
+}
+
+main > .product > .iPone14 > .info > a > span:hover {
+  text-decoration: underline;
+}
+
+main > .promos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+main > .promos > div {
+  width: 934px;
+  height: 640px;
+  margin: 8px;
+  background: no-repeat bottom center/auto 640px;
+}
+
+/* apple-watch-ultra */
+main > .promos > .apple-watch-ultra {
+  position: relative;
+  background-image: url(../img/background-img/watch-ultra.jpg);
+  cursor: pointer;
+}
+
+main > .promos > .apple-watch-ultra > .info {
+  position: absolute;
+  width: 430px;
+  height: 128px;
+  margin-left: 252px;
+  top: 60px;
+  text-align: center;
+}
+
+main > .promos > .apple-watch-ultra > .info > div {
+  height: 52px;
+  margin: 0 auto;
+  background: url(../img/background-img/apple_watch_ultra.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+main > .promos > .apple-watch-ultra > .info > div > span {
+  font-size: 0;
+}
+
+main > .promos > .apple-watch-ultra > .info > h5 {
+  height: 26px;
+  margin-top: 10px;
+  font-size: 21px;
+  font-weight: 400;
+}
+
+main > .promos > .apple-watch-ultra > .info > a {
+  display: block;
+  margin-top: 22px;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+main > .promos > .apple-watch-ultra > .info > a > span {
+  color: #2997ff;
+}
+
+main > .promos > .apple-watch-ultra > .info > a > span::after {
+  content: ">";
+}
+
+main > .promos > .apple-watch-ultra > .info > a > span:last-child {
+  margin-left: 28px;
+}
+
+main > .promos > .apple-watch-ultra > .info > a > span:hover {
+  text-decoration: underline;
+}
+
+/* apple-watch-series-8 */
+main > .promos > .apple-watch-series-8 {
+  position: relative;
+  background-image: url(../img/background-img/watch-series-8.jpg);
+  cursor: pointer;
+}
+
+main > .promos > .apple-watch-series-8 > .info {
+  position: absolute;
+  width: 430px;
+  height: 128px;
+  margin-left: 252px;
+  top: 60px;
+  text-align: center;
+}
+
+main > .promos > .apple-watch-series-8 > .info > div {
+  height: 52px;
+  margin: 0 auto;
+  background: url(../img/background-img/apple_watch_series_8.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+main > .promos > .apple-watch-series-8 > .info > div > span {
+  font-size: 0;
+}
+
+main > .promos > .apple-watch-series-8 > .info > h5 {
+  height: 26px;
+  margin-top: 10px;
+  font-size: 21px;
+  font-weight: 400;
+  color: #f5f5f7;
+}
+
+main > .promos > .apple-watch-series-8 > .info > a {
+  display: block;
+  margin-top: 22px;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+main > .promos > .apple-watch-series-8 > .info > a > span {
+  color: #2997ff;
+}
+
+main > .promos > .apple-watch-series-8 > .info > a > span::after {
+  content: ">";
+}
+
+main > .promos > .apple-watch-series-8 > .info > a > span:last-child {
+  margin-left: 28px;
+}
+
+main > .promos > .apple-watch-series-8 > .info > a > span:hover {
+  text-decoration: underline;
+}
+
+/* ipad-pro */
+main > .promos > .ipad-pro {
+  position: relative;
+  background-image: url(../img/background-img/iPad-pro.jpg);
+  cursor: pointer;
+}
+
+main > .promos > .ipad-pro > .info {
+  position: absolute;
+  width: 430px;
+  height: 128px;
+  margin-left: 252px;
+  top: 60px;
+  text-align: center;
+}
+
+main > .promos > .ipad-pro > .info > h4 {
+  color: #f5f5f7;
+  height: 44px;
+  line-height: 44px;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+main > .promos > .ipad-pro > .info > div {
+  height: 37px;
+  margin: 0 auto;
+  line-height: 37px;
+  color: #f5f5f7;
+  font-size: 21px;
+  font-weight: 400;
+}
+
+main > .promos > .ipad-pro > .info > div > span {
+  display: inline-block;
+  width: 37px;
+  height: 37px;
+  margin-left: 4px;
+  background: url(../img/background-img/m2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 37px 37px;
+  vertical-align: middle;
+}
+
+main > .promos > .ipad-pro > .info > p {
+  height: 21px;
+  margin-top: 6px;
+  color: #6e6e73;
+  line-height: 21px;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+main > .promos > .ipad-pro > .info > a {
+  display: block;
+  margin-top: 14px;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+main > .promos > .ipad-pro > .info > a > span {
+  color: #2997ff;
+}
+
+main > .promos > .ipad-pro > .info > a > span::after {
+  content: ">";
+}
+
+main > .promos > .ipad-pro > .info > a > span:last-child {
+  margin-left: 28px;
+}
+
+main > .promos > .ipad-pro > .info > a > span:hover {
+  text-decoration: underline;
+}
+
+/* airpods-pro */
+main > .promos > .airpods-pro {
+  position: relative;
+  background-image: url(../img/background-img/Airpods_pro.jpg);
+  cursor: pointer;
+}
+
+main > .promos > .airpods-pro > .info {
+  position: absolute;
+  width: 430px;
+  height: 128px;
+  margin-left: 252px;
+  top: 60px;
+  text-align: center;
+}
+
+main > .promos > .airpods-pro > .info > h4 {
+  height: 44px;
+  color: #f5f5f7;
+  line-height: 44px;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+main > .promos > .airpods-pro > .info > h5 {
+  height: 26px;
+  margin-top: 4px;
+  color: #f5f5f7;
+  line-height: 26px;
+  font-size: 21px;
+  font-weight: 400;
+}
+
+main > .promos > .airpods-pro > .info > a {
+  display: block;
+  margin-top: 14px;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+main > .promos > .airpods-pro > .info > a > span {
+  color: #2997ff;
+}
+
+main > .promos > .airpods-pro > .info > a > span::after {
+  content: ">";
+}
+
+main > .promos > .airpods-pro > .info > a > span:last-child {
+  margin-left: 28px;
+}
+
+main > .promos > .airpods-pro > .info > a > span:hover {
+  text-decoration: underline;
+}
+
+/* macbook-air */
+main > .promos > .macbook-air {
+  position: relative;
+  background-image: url(../img/background-img/MacBook-air.png);
+  cursor: pointer;
+}
+
+main > .promos > .macbook-air > .info {
+  position: absolute;
+  width: 430px;
+  height: 128px;
+  margin-left: 252px;
+  top: 60px;
+  text-align: center;
+}
+
+main > .promos > .macbook-air > .info > h4 {
+  height: 44px;
+  margin-bottom: 4px;
+  line-height: 44px;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+main > .promos > .macbook-air > .info > div {
+  height: 31px;
+  margin: 0 auto;
+  background: url(../img/background-img/macbookair.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  line-height: 31px;
+  color: #f5f5f7;
+  font-size: 21px;
+  font-weight: 400;
+}
+
+main > .promos > .macbook-air > .info > a {
+  display: block;
+  margin-top: 14px;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+main > .promos > .macbook-air > .info > a > span {
+  color: #2997ff;
+}
+
+main > .promos > .macbook-air > .info > a > span::after {
+  content: ">";
+}
+
+main > .promos > .macbook-air > .info > a > span:last-child {
+  margin-left: 28px;
+}
+
+main > .promos > .macbook-air > .info > a > span:hover {
+  text-decoration: underline;
+}
+
+/* apple-watch-se */
+main > .promos > .apple-watch-se {
+  position: relative;
+  background-image: url(../img/background-img/watch_se.jpg);
+  cursor: pointer;
+}
+
+main > .promos > .apple-watch-se > .info {
+  position: absolute;
+  width: 430px;
+  height: 128px;
+  margin-left: 252px;
+  top: 60px;
+  text-align: center;
+}
+
+main > .promos > .apple-watch-se > .info > div {
+  height: 52px;
+  margin: 0 auto;
+  background: url(../img/background-img/apple_watch_se.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+main > .promos > .apple-watch-se > .info > div > span {
+  font-size: 0;
+}
+
+main > .promos > .apple-watch-se > .info > h5 {
+  height: 26px;
+  margin-top: 10px;
+  font-size: 21px;
+  font-weight: 400;
+}
+
+main > .promos > .apple-watch-se > .info > a {
+  display: block;
+  margin-top: 20px;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+main > .promos > .apple-watch-se > .info > a > span {
+  color: #2997ff;
+}
+
+main > .promos > .apple-watch-se > .info > a > span::after {
+  content: ">";
+}
+
+main > .promos > .apple-watch-se > .info > a > span:last-child {
+  margin-left: 28px;
+}
+
+main > .promos > .apple-watch-se > .info > a > span:hover {
+  text-decoration: underline;
+}
+
+/* footer */
+footer {
+  background-color: rgb(245, 245, 247);
+}
+footer > .globalfooter_content {
+  width: 980px;
+  height: 546px;
+  margin: 0 auto;
+  padding: 0 22px;
+}
+
+footer > .globalfooter_content > .gf_directory {
+  display: flex;
+  height: 383px;
+  padding-top: 20px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+footer > .globalfooter_content > .gf_directory > .gf_directory_column > .title {
+  width: 176px;
+  height: 16px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 600;
+}
+
+footer > .globalfooter_content > .gf_directory > .gf_directory_column > .list {
+  width: 176px;
+  margin-right: 20px;
+}
+
+footer
+  > .globalfooter_content
+  > .gf_directory
+  > .gf_directory_column
+  > .list
+  > li {
+  margin-bottom: 16px;
+}
+footer
+  > .globalfooter_content
+  > .gf_directory
+  > .gf_directory_column
+  > .list
+  > li:hover {
+  text-decoration: underline;
+}
+
+footer
+  > .globalfooter_content
+  > .gf_directory
+  > .gf_directory_column
+  > .title.t_padd {
+  padding-top: 10px;
+}
+
+footer > .globalfooter_content > .gf_footer {
+  width: 980px;
+  padding-top: 34px;
+  margin-bottom: 14px;
+  font-size: 10px;
+}
+footer > .globalfooter_content > .gf_footer > .gf_footer_shop {
+  width: 100%;
+  height: 25px;
+  margin-bottom: 7px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #d2d2d7;
+  color: rgb(110, 110, 115);
+  line-height: 25px;
+}
+
+footer > .globalfooter_content > .gf_footer > .gf_footer_shop > a {
+  color: #06c;
+}
+footer > .globalfooter_content > .gf_footer > .gf_footer_shop > a:hover {
+  text-decoration: underline;
+}
+
+footer > .globalfooter_content > .gf_footer > .gf_footer_legal {
+  display: flex;
+  height: 16px;
+  line-height: 16px;
+}
+
+footer
+  > .globalfooter_content
+  > .gf_footer
+  > .gf_footer_legal
+  > .legal_copyright {
+  margin-top: 5px;
+  margin-right: 30px;
+  color: rgb(110, 110, 115);
+}
+
+footer
+  > .globalfooter_content
+  > .gf_footer
+  > .gf_footer_legal
+  > .legal_link
+  > a {
+  display: inline-block;
+  margin-right: 7px;
+  margin-top: 5px;
+  padding-right: 10px;
+  border-right: 1px solid #d2d2d7;
+  color: #424245;
+}
+
+footer
+  > .globalfooter_content
+  > .gf_footer
+  > .gf_footer_legal
+  > .legal_link
+  > a:hover {
+  text-decoration: underline;
+}
+
+footer
+  > .globalfooter_content
+  > .gf_footer
+  > .gf_footer_legal
+  > .legal_link
+  > a:last-child {
+  border-right: none;
+}
+
+footer > .globalfooter_content > p {
+  height: 16px;
+  padding-bottom: 20px;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+footer > .globalfooter_content > p > a {
+  color: rgb(110, 110, 115);
+}
+
+footer > .globalfooter_content > p > a:hover {
+  text-decoration: underline;
+}
+
+footer > .globalfooter_content > p > span {
+  color: rgb(110, 110, 115);
+}
