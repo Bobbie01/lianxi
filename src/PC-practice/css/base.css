@@ -1,0 +1,19 @@
+@font-face {
+  font-family: PingHeiLight;
+  src: url(../font/PingHeiLight.ttf) format(truetype);
+}
+
+body {
+  color: #333;
+  font: 14px/1.5 PingHeiLight, MicrosoftYaHei, ArialMT;
+}
+
+.container {
+  width: 1226px;
+  margin: 0 auto;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}

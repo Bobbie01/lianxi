@@ -1,0 +1,2713 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>艾编程</title>
+    <meta name="keywords" content="艾编程,互联网在线教育学习平台">
+    <meta name="description"
+        content="艾编程,互联网在线教育学习平台,目前主要涉及java进阶高级架构师的课程和Web前端入门到精通学习路线和系统课程,并提供有SpringBoot、SpringCloud、JavaScript、CSS、组件化等系列的视频教程">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <!-- 引入iconfont图标 -->
+    <link rel="stylesheet" href="./font/iconfont.css">
+    <!-- 引入 swiper css-->
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <!-- header start -->
+    <header class="header">
+        <!-- topbar start -->
+        <div id="topbar" class="topbar">
+            <div class="container clearfix">
+                <div class="top-nav">
+                    <ul>
+                        <li>
+                            <a href="javascript:;">手机商城</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">MINI</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">IoT</a>
+                        </li>
+                        <li class="submenu active">
+                            <a href="javascript:;">云服务</a>
+                            <div class="submenu-list">
+                                <ul>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <img src="./images/submenu-list1.png" alt="通讯录" width="16"
+                                                height="16">通讯录</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <img src="./images/submenu-list2.png" alt="短信" width="16" height="16">短信</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <img src="./images/submenu-list3.png" alt="云相册" width="16"
+                                                height="16">云相册</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <img src="./images/submenu-list4.png" alt="手机云盘" width="16"
+                                                height="16">手机云盘</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <img src="./images/submenu-list5.png" alt="笔记（便签）" width="16"
+                                                height="16">笔记（便签）</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:;">手机数科</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">升品</a>
+                        </li>
+                        <li class="submenu">
+                            <a href="javascript:;">智能开发平台</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">企业团购</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">资质证照</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">协议规则</a>
+                        </li>
+                        <li class="submenu active">
+                            <a href="javascript:;">下载app</a>
+                            <div class="QR-code">
+                                <img src="./images/QR-code.png" alt="手机商城APP" width="87" height="87">
+                                <p>手机商城APP</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:;">智能生活</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">Melect Nocation</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="top-cart">
+                    <a href="javascript:;">
+                        <i class="iconfont icon-gouwuche1"></i>
+                        购物车(0)
+                    </a>
+                    <div class="min-cart">
+                        购物车中还没有商品，赶紧选购吧！
+                    </div>
+                </div>
+                <div class="top-info">
+                    <ul>
+                        <li class="login">
+                            <a href="javascript:;">登录</a>
+                        </li>
+                        <li class="regsiter">
+                            <a href="javascript:;">注册</a>
+                        </li>
+                        <li class="notice">
+                            <a href="javascript:;">消息通知</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- end topbar -->
+
+        <!-- site-header start -->
+
+        <div class="site-header">
+            <div class="container clearfix">
+                <div class="logo">
+                    <a href="javascript:;">
+                        <img src="./images/logo.png" alt="艾编程" width="48" height="56">
+                    </a>
+                </div>
+                <div class="header-nav">
+                    <ul>
+                        <li>
+                            <a href="javascript:;">Minini手机</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">Pidmi手机</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">电视</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">笔记本</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">平板</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">家电</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">路由器</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">服务中心</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">社区</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header-search">
+                    <input type="text" class="search-text" placeholder="红米" outline="none">
+                    <a href="javascript:;" class="search">
+                        <i class="iconfont icon-fangdajing"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- end site-header -->
+
+        <!-- 侧边导航siderbar -->
+        <div class="siderbar">
+            <ul>
+                <li>
+                    <a href="javascript:;">
+                        <i class="iconfont icon-weixin"></i>
+                        <p>前端直播课</p>
+                    </a>
+                    <div class="code">
+                        <p>0基础web前端课</p>
+                        <img src="./images/QR-code.png" alt="二维码" width="104" height="104">
+                        <p class="phone-app">手机商城APP</p>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <i class="iconfont icon-qq"></i>
+                        <p>项目开发</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <i class="iconfont icon-kefu"></i>
+                        <p>在线客服</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <i class="iconfont icon-xiangyingshi"></i>
+                        <p>响应式网站</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#topbar">
+                        <i class="iconfont icon-fanhuidingbu"></i>
+                        <p>返回顶部</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- msg-bar -->
+        <div class="msg-bar">
+            <ul>
+                <li>
+                    <p>
+                        10大
+                        <br />
+                        案例
+                    </p>
+                </li>
+                <li>
+                    <a href="#goods">
+                        <i class="iconfont icon-lunbotuguanli"></i>
+                        <p>导航<br />轮播</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#music">
+                        <i class="iconfont icon-xuanxiangka"></i>
+                        <p>选项卡</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#blurb">
+                        <i class="iconfont icon-caidan"></i>
+                        <p>悬 停<br />特 效</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#p-video-title">
+                        <i class="iconfont icon-danchuang"></i>
+                        <p>弹 窗<br />特 效</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#phone-message">
+                        <i class="iconfont icon-bim_donghua"></i>
+                        <p>滑 动<br />动 画</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#accordion">
+                        <i class="iconfont icon-accordion"></i>
+                        <p>手风琴</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="iconfont icon-zujian-zuoyouhuadongtu"></i>
+                        <p>拖拽<br />画廊</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </header>
+    <!-- end header -->
+
+    <!-- main start -->
+    <main class="main">
+        <div class="container">
+            <div id="goods" class="goods">
+                <ul class="goods-list">
+                    <li>
+                        <a href="javascript:;">手机</a>
+                        <i class="iconfont icon-jiantouyou"></i>
+                        <div class="goods-items">
+                            <ul class="clearfix">
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:;">电视</a>
+                        <i class="iconfont icon-jiantouyou"></i>
+                        <div class="goods-items">
+                            <ul class="clearfix">
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:;">笔记本 平板</a>
+                        <i class="iconfont icon-jiantouyou"></i>
+                        <div class="goods-items">
+                            <ul class="clearfix">
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:;">出行 穿戴</a>
+                        <i class="iconfont icon-jiantouyou"></i>
+                        <div class="goods-items">
+                            <ul class="clearfix">
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:;">耳机 音响</a>
+                        <i class="iconfont icon-jiantouyou"></i>
+                        <div class="goods-items">
+                            <ul class="clearfix">
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:;">家电</a>
+                        <i class="iconfont icon-jiantouyou"></i>
+                        <div class="goods-items">
+                            <ul class="clearfix">
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:;">智能 路由器</a>
+                        <i class="iconfont icon-jiantouyou"></i>
+                        <div class="goods-items">
+                            <ul class="clearfix">
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:;">电源 配件</a>
+                        <i class="iconfont icon-jiantouyou"></i>
+                        <div class="goods-items">
+                            <ul class="clearfix">
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:;">健康 儿童</a>
+                        <i class="iconfont icon-jiantouyou"></i>
+                        <div class="goods-items">
+                            <ul class="clearfix">
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:;">生活 箱包</a>
+                        <i class="iconfont icon-jiantouyou"></i>
+                        <div class="goods-items">
+                            <ul class="clearfix">
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <img src="./images/goods-items.png" alt="Miaomi 12S" width="29" height="38">
+                                        Miaomi 12S
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./images/banner-1.png" alt="banner" width="1226" height="460">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/banner-2.png" alt="banner" width="1226" height="460">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/banner-3.png" alt="banner" width="1226" height="460">
+                    </div>
+                </div>
+                <div class="swiper-button-next btn-next"></div>
+                <div class="swiper-button-prev btn-prev"></div>
+                <div class="swiper-pagination pag"></div>
+            </div>
+        </div>
+
+        <!-- recommend start -->
+        <section class="recommend">
+            <div class="container">
+                <div class="rec-header">
+                    <a href="javascript:;">
+                        <img src="./images/reco-img.png" alt="" width="1226" height="120">
+                    </a>
+                </div>
+                <div id="music" class="music">
+                    <h2>歌 单 推 荐</h2>
+                    <ul class="music-list clearfix">
+                        <li class="active">
+                            <a href="javascript:;">为你推荐</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">官方歌单</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">情歌</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">网络歌曲</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">经典KTV</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">热歌</a>
+                        </li>
+                    </ul>
+                    <div class="music-items">
+                        <ul class="music-items-list current clearfix">
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./images/music-items1.png" alt="为你推荐" width="224" height="224">
+                                    <i class="img-mask"></i>
+                                    <i class="m-play"></i>
+                                </a>
+                                <p>
+                                    <a href="javascript:;">拒绝不开心丨rap情歌甜到你发晕</a>
+                                </p>
+                                <span>播放量：<em>1253.9万</em></span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./images/music-items2.png" alt="为你推荐" width="224" height="224">
+                                    <i class="img-mask"></i>
+                                    <i class="m-play"></i>
+                                </a>
+                                <p>
+                                    <a href="javascript:;">百听不厌！300首古风党必听良曲</a>
+                                </p>
+                                <span>播放量：<em>1.1亿</em></span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./images/music-items3.png" alt="为你推荐" width="224" height="224">
+                                    <i class="img-mask"></i>
+                                    <i class="m-play"></i>
+                                </a>
+                                <p>
+                                    <a href="javascript:;">鬼畜打败恐惧｜整点阳间的东西</a>
+                                </p>
+                                <span>播放量：<em>146.1万</em></span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./images/music-items4.png" alt="为你推荐" width="224" height="224">
+                                    <i class="img-mask"></i>
+                                    <i class="m-play"></i>
+                                </a>
+                                <p>
+                                    <a href="javascript:;">李信｜这里是为我所统帅的战场！</a>
+                                </p>
+                                <span>播放量：<em>1821.6万</em></span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./images/music-items5.png" alt="为你推荐" width="224" height="224">
+                                    <i class="img-mask"></i>
+                                    <i class="m-play"></i>
+                                </a>
+                                <p>
+                                    <a href="javascript:;">千禧盛世 • 重启旧时光</a>
+                                </p>
+                                <span>播放量：<em>2.1亿</em></span>
+                            </li>
+                        </ul>
+                        <ul class="music-items-list clearfix">
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./images/music-items6.png" alt="为你推荐" width="224" height="224">
+                                    <i class="img-mask"></i>
+                                    <i class="m-play"></i>
+                                </a>
+                                <p>
+                                    <a href="javascript:;">拒绝不开心丨rap情歌甜到你发晕</a>
+                                </p>
+                                <span>播放量：<em>1253.9万</em></span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./images/music-items7.png" alt="为你推荐" width="224" height="224">
+                                    <i class="img-mask"></i>
+                                    <i class="m-play"></i>
+                                </a>
+                                <p>
+                                    <a href="javascript:;">百听不厌！300首古风党必听良曲</a>
+                                </p>
+                                <span>播放量：<em>1.1亿</em></span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./images/music-items8.png" alt="为你推荐" width="224" height="224">
+                                    <i class="img-mask"></i>
+                                    <i class="m-play"></i>
+                                </a>
+                                <p>
+                                    <a href="javascript:;">鬼畜打败恐惧｜整点阳间的东西</a>
+                                </p>
+                                <span>播放量：<em>146.1万</em></span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./images/music-items9.png" alt="为你推荐" width="224" height="224">
+                                    <i class="img-mask"></i>
+                                    <i class="m-play"></i>
+                                </a>
+                                <p>
+                                    <a href="javascript:;">李信｜这里是为我所统帅的战场！</a>
+                                </p>
+                                <span>播放量：<em>1821.6万</em></span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./images/music-items10.png" alt="为你推荐" width="224" height="224">
+                                    <i class="img-mask"></i>
+                                    <i class="m-play"></i>
+                                </a>
+                                <p>
+                                    <a href="javascript:;">千禧盛世 • 重启旧时光</a>
+                                </p>
+                                <span>播放量：<em>2.1亿</em></span>
+                            </li>
+                        </ul>
+                        <ul class="music-items-list clearfix">
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./images/music-items11.png" alt="为你推荐" width="224" height="224">
+                                    <i class="img-mask"></i>
+                                    <i class="m-play"></i>
+                                </a>
+                                <p>
+                                    <a href="javascript:;">拒绝不开心丨rap情歌甜到你发晕</a>
+                                </p>
+                                <span>播放量：<em>1253.9万</em></span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./images/music-items11.png" alt="为你推荐" width="224" height="224">
+                                    <i class="img-mask"></i>
+                                    <i class="m-play"></i>
+                                </a>
+                                <p>
+                                    <a href="javascript:;">百听不厌！300首古风党必听良曲</a>
+                                </p>
+                                <span>播放量：<em>1.1亿</em></span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./images/music-items11.png" alt="为你推荐" width="224" height="224">
+                                    <i class="img-mask"></i>
+                                    <i class="m-play"></i>
+                                </a>
+                                <p>
+                                    <a href="javascript:;">鬼畜打败恐惧｜整点阳间的东西</a>
+                                </p>
+                                <span>播放量：<em>146.1万</em></span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./images/music-items11.png" alt="为你推荐" width="224" height="224">
+                                    <i class="img-mask"></i>
+                                    <i class="m-play"></i>
+                                </a>
+                                <p>
+                                    <a href="javascript:;">李信｜这里是为我所统帅的战场！</a>
+                                </p>
+                                <span>播放量：<em>1821.6万</em></span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./images/music-items11.png" alt="为你推荐" width="224" height="224">
+                                    <i class="img-mask"></i>
+                                    <i class="m-play"></i>
+                                </a>
+                                <p>
+                                    <a href="javascript:;">千禧盛世 • 重启旧时光</a>
+                                </p>
+                                <span>播放量：<em>2.1亿</em></span>
+                            </li>
+                        </ul>
+                        <ul class="music-items-list clearfix">
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./images/music-items6.png" alt="为你推荐" width="224" height="224">
+                                    <i class="img-mask"></i>
+                                    <i class="m-play"></i>
+                                </a>
+                                <p>
+                                    <a href="javascript:;">拒绝不开心丨rap情歌甜到你发晕</a>
+                                </p>
+                                <span>播放量：<em>1253.9万</em></span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./images/music-items2.png" alt="为你推荐" width="224" height="224">
+                                    <i class="img-mask"></i>
+                                    <i class="m-play"></i>
+                                </a>
+                                <p>
+                                    <a href="javascript:;">百听不厌！300首古风党必听良曲</a>
+                                </p>
+                                <span>播放量：<em>1.1亿</em></span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./images/music-items7.png" alt="为你推荐" width="224" height="224">
+                                    <i class="img-mask"></i>
+                                    <i class="m-play"></i>
+                                </a>
+                                <p>
+                                    <a href="javascript:;">鬼畜打败恐惧｜整点阳间的东西</a>
+                                </p>
+                                <span>播放量：<em>146.1万</em></span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./images/music-items4.png" alt="为你推荐" width="224" height="224">
+                                    <i class="img-mask"></i>
+                                    <i class="m-play"></i>
+                                </a>
+                                <p>
+                                    <a href="javascript:;">李信｜这里是为我所统帅的战场！</a>
+                                </p>
+                                <span>播放量：<em>1821.6万</em></span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./images/music-items9.png" alt="为你推荐" width="224" height="224">
+                                    <i class="img-mask"></i>
+                                    <i class="m-play"></i>
+                                </a>
+                                <p>
+                                    <a href="javascript:;">千禧盛世 • 重启旧时光</a>
+                                </p>
+                                <span>播放量：<em>2.1亿</em></span>
+                            </li>
+                        </ul>
+                        <ul class="music-items-list clearfix">
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./images/music-items11.png" alt="为你推荐" width="224" height="224">
+                                    <i class="img-mask"></i>
+                                    <i class="m-play"></i>
+                                </a>
+                                <p>
+                                    <a href="javascript:;">拒绝不开心丨rap情歌甜到你发晕</a>
+                                </p>
+                                <span>播放量：<em>1253.9万</em></span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./images/music-items2.png" alt="为你推荐" width="224" height="224">
+                                    <i class="img-mask"></i>
+                                    <i class="m-play"></i>
+                                </a>
+                                <p>
+                                    <a href="javascript:;">百听不厌！300首古风党必听良曲</a>
+                                </p>
+                                <span>播放量：<em>1.1亿</em></span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./images/music-items10.png" alt="为你推荐" width="224" height="224">
+                                    <i class="img-mask"></i>
+                                    <i class="m-play"></i>
+                                </a>
+                                <p>
+                                    <a href="javascript:;">鬼畜打败恐惧｜整点阳间的东西</a>
+                                </p>
+                                <span>播放量：<em>146.1万</em></span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./images/music-items8.png" alt="为你推荐" width="224" height="224">
+                                    <i class="img-mask"></i>
+                                    <i class="m-play"></i>
+                                </a>
+                                <p>
+                                    <a href="javascript:;">李信｜这里是为我所统帅的战场！</a>
+                                </p>
+                                <span>播放量：<em>1821.6万</em></span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./images/music-items5.png" alt="为你推荐" width="224" height="224">
+                                    <i class="img-mask"></i>
+                                    <i class="m-play"></i>
+                                </a>
+                                <p>
+                                    <a href="javascript:;">千禧盛世 • 重启旧时光</a>
+                                </p>
+                                <span>播放量：<em>2.1亿</em></span>
+                            </li>
+                        </ul>
+                        <ul class="music-items-list clearfix">
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./images/music-items5.png" alt="为你推荐" width="224" height="224">
+                                    <i class="img-mask"></i>
+                                    <i class="m-play"></i>
+                                </a>
+                                <p>
+                                    <a href="javascript:;">拒绝不开心丨rap情歌甜到你发晕</a>
+                                </p>
+                                <span>播放量：<em>1253.9万</em></span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./images/music-items6.png" alt="为你推荐" width="224" height="224">
+                                    <i class="img-mask"></i>
+                                    <i class="m-play"></i>
+                                </a>
+                                <p>
+                                    <a href="javascript:;">百听不厌！300首古风党必听良曲</a>
+                                </p>
+                                <span>播放量：<em>1.1亿</em></span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./images/music-items3.png" alt="为你推荐" width="224" height="224">
+                                    <i class="img-mask"></i>
+                                    <i class="m-play"></i>
+                                </a>
+                                <p>
+                                    <a href="javascript:;">鬼畜打败恐惧｜整点阳间的东西</a>
+                                </p>
+                                <span>播放量：<em>146.1万</em></span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./images/music-items7.png" alt="为你推荐" width="224" height="224">
+                                    <i class="img-mask"></i>
+                                    <i class="m-play"></i>
+                                </a>
+                                <p>
+                                    <a href="javascript:;">李信｜这里是为我所统帅的战场！</a>
+                                </p>
+                                <span>播放量：<em>1821.6万</em></span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./images/music-items11.png" alt="为你推荐" width="224" height="224">
+                                    <i class="img-mask"></i>
+                                    <i class="m-play"></i>
+                                </a>
+                                <p>
+                                    <a href="javascript:;">千禧盛世 • 重启旧时光</a>
+                                </p>
+                                <span>播放量：<em>2.1亿</em></span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end recommend -->
+
+        <!-- children-toys start -->
+        <section class="children-toys ">
+            <div class="container clearfix">
+                <div id="blurb" class="blurb">
+                    <h2 class="blurb-title">自在游乐 健康成长</h2>
+                    <p class="blurb-text">大人过大年，小朋友也有小乐趣。改造房间，给小朋友准备一个“游乐场”，无论是准备带着小朋友回家，还是就地过年，都可以享受 闲适的亲子时光。</p>
+                    <div class="blurb-more">
+                        <a href="javascript:;">
+                            更多儿童产品
+                        </a>
+                    </div>
+                </div>
+                <div class="toys-img">
+                    <ul>
+                        <li class="toys-img-list">
+                            <div>
+                                <a href="javascript:;">
+                                    <img src="./images/toys-img-list1.png" alt="" width="610" height="715">
+                                    <a class="circle circle1">
+                                        <div class="circle-tips">
+                                            <h3>DUNDRA 敦德拉</h3>
+                                            <p>带储物空间的活动桌</p>
+                                            <span>¥<i>999.</i>00</span>
+                                        </div>
+                                    </a>
+                                    <a class="circle circle2">
+                                        <div class="circle-tips">
+                                            <h3>DUNDRA 敦德拉</h3>
+                                            <p>带储物空间的活动桌</p>
+                                            <span>¥<i>999.</i>00</span>
+                                        </div>
+                                    </a>
+                                    <a class="circle circle3">
+                                        <div class="circle-tips">
+                                            <h3>DUNDRA 敦德拉</h3>
+                                            <p>带储物空间的活动桌</p>
+                                            <span>¥<i>999.</i>00</span>
+                                        </div>
+                                    </a>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="toys-img-list">
+                            <div class="t-bottom">
+                                <a href="javascript:;">
+                                    <img src="./images/toys-img-list2.png" alt="" width="295" height="295">
+                                    <a class="circle circle4">
+                                        <div class="circle-tips">
+                                            <h3>DUNDRA 敦德拉</h3>
+                                            <p>带储物空间的活动桌</p>
+                                            <span>¥<i>999.</i>00</span>
+                                        </div>
+                                    </a>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="javascript:;">
+                                    <img src="./images/toys-img-list3.png" alt="" width="295" height="400">
+                                    <i class="circle circle5">
+                                        <div class="circle-tips">
+                                            <h3>DUNDRA 敦德拉</h3>
+                                            <p>带储物空间的活动桌</p>
+                                            <span>¥<i>999.</i>00</span>
+                                        </div>
+                                    </i>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="toys-img-list">
+                            <div class="t-bottom">
+                                <a href="javascript:;">
+                                    <img src="./images/toys-img-list5.png" alt="" width="295" height="400">
+                                    <a class="circle circle6">
+                                        <div class="circle-tips">
+                                            <h3>DUNDRA 敦德拉</h3>
+                                            <p>带储物空间的活动桌</p>
+                                            <span>¥<i>999.</i>00</span>
+                                        </div>
+                                    </a>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="javascript:;">
+                                    <img src="./images/toys-img-list4.png" alt="" width="295" height="295">
+                                    <a class="circle circle7">
+                                        <div class="circle-tips">
+                                            <h3>DUNDRA 敦德拉</h3>
+                                            <p>带储物空间的活动桌</p>
+                                            <span>¥<i>999.</i>00</span>
+                                        </div>
+                                    </a>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- end children-toys -->
+
+        <!-- phone-video start -->
+        <section class="phone-video">
+            <div id="p-video-title" class="container">
+                <div class="p-video-title">
+                    <h2>手机商城 - 精彩视频</h2>
+                </div>
+                <div class="p-video-items">
+                    <ul class="clearfix">
+                        <li data-video-url="./video/vodeo.png">
+                            <a href="javascript:;">
+                                <img src="./images/p-video1.png" alt="巨族 18X" width="303" height="190">
+                                <i class="iconfont icon-play-circle p-video-play"></i>
+                            </a>
+                            <p>巨族 18X</p>
+                        </li>
+                        <li data-video-url="./video/vodeo.png">
+                            <a href="javascript:;">
+                                <img src="./images/p-video2.png" alt="巨族 18 Pro" width="303" height="190">
+                                <i class="iconfont icon-play-circle p-video-play"></i>
+                            </a>
+                            <p>巨族 18 Pro</p>
+                        </li>
+                        <li data-video-url="./video/vodeo.png">
+                            <a href="javascript:;">
+                                <img src="./images/p-video3.png" alt="巨族 18" width="303" height="190">
+                                <i class="iconfont icon-play-circle p-video-play"></i>
+                            </a>
+                            <p>巨族 18</p>
+                        </li>
+                        <li data-video-url="./video/vodeo.png">
+                            <a href="javascript:;">
+                                <img src="./images/p-video4.png" alt="Lipro 智能家" width="303" height="190">
+                                <i class="iconfont icon-play-circle p-video-play"></i>
+                            </a>
+                            <p>Lipro 智能家</p>
+                        </li>
+                        <li data-video-url="./video/vodeo.png">
+                            <a href="javascript:;">
+                                <img src="./images/p-video8.png" alt="Plyme 9 功能视频" width="303" height="190">
+                                <i class="iconfont icon-play-circle p-video-play"></i>
+                            </a>
+                            <p>Plyme 9 功能视频</p>
+                        </li>
+                        <li data-video-url="./video/vodeo.png">
+                            <a href="javascript:;">
+                                <img src="./images/p-video6.png" alt="Plyme 8 概念视频" width="303" height="190">
+                                <i class="iconfont icon-play-circle p-video-play"></i>
+                            </a>
+                            <p>Plyme 8 概念视频</p>
+                        </li>
+                        <li data-video-url="./video/vodeo.png">
+                            <a href="javascript:;">
+                                <img src="./images/p-video7.png" alt="Aicy" width="303" height="190">
+                                <i class="iconfont icon-play-circle p-video-play"></i>
+                            </a>
+                            <p>Aicy</p>
+                        </li>
+                        <li data-video-url="./video/vodeo.png">
+                            <a href="javascript:;">
+                                <img src="./images/p-video5.png" alt="安全家庭" width="303" height="190">
+                                <i class="iconfont icon-play-circle p-video-play"></i>
+                            </a>
+                            <p>安全家庭</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- end phone-video -->
+
+        <!-- phone-message start -->
+        <section id="phone-message" class="phone-message">
+            <div class="container clearfix">
+                <h3>手机商城 - 推荐信息</h3>
+                <ul>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="./images/message-1.png" alt="产品信息" width="600" height="320">
+                        </a>
+                        <div class="phone-info">
+                            <span>产品</span>
+                            <p>MINI nova 9 Pro</p>
+                            <span>精彩 由我摄定</span>
+                            <a href="javascript:;">
+                                了解更多
+                                <i class="iconfont icon-xiangyoujiantou
+"></i>
+                            </a>
+                        </div>
+                        <div class="message-mask"></div>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="./images/message-2.png" alt="产品信息" width="299" height="320">
+                        </a>
+                        <div class="phone-info">
+                            <span>产品</span>
+                            <p>MINI WATCH GT 3</p>
+                            <span>健康时刻 一表在握</span>
+                            <a href="javascript:;">
+                                了解更多
+                                <i class="iconfont icon-xiangyoujiantou
+"></i>
+                            </a>
+                        </div>
+                        <div class="message-mask"></div>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="./images/message-3.png" alt="产品信息" width="300" height="320">
+                        </a>
+                        <div class="phone-info">
+                            <span>产品</span>
+                            <p>MINI MateStation X</p>
+                            <span>原色全面屏一体机</span>
+                            <a href="javascript:;">
+                                了解更多
+                                <i class="iconfont icon-xiangyoujiantou
+"></i>
+                            </a>
+                        </div>
+                        <div class="message-mask"></div>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="./images/message-4.png" alt="产品信息" width="300" height="320">
+                        </a>
+                        <div class="phone-info">
+                            <span>前沿探索</span>
+                            <p>憧憬6G，共同定义6G</p>
+                            <span>《6G无线通信新征程》序言</span>
+                            <a href="javascript:;">
+                                了解更多
+                                <i class="iconfont icon-xiangyoujiantou"></i>
+                            </a>
+                        </div>
+                        <div class="message-mask"></div>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="./images/message-5.png" alt="产品信息" width="600" height="320">
+                        </a>
+                        <div class="phone-info">
+                            <span>产品</span>
+                            <p>MiniBook E</p>
+                            <span>二合一笔记本，高效移动办公</span>
+                            <a href="javascript:;">
+                                了解更多
+                                <i class="iconfont icon-xiangyoujiantou"></i>
+                            </a>
+                        </div>
+                        <div class="message-mask"></div>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="./images/message-6.png" alt="产品信息" width="300" height="320">
+                        </a>
+                        <div class="phone-info">
+                            <span>成功故事</span>
+                            <p>以“青海湖”之名，再造青海</p>
+                            <span>看全球最大可再生能源基地如何给出答案</span>
+                            <a href="javascript:;">
+                                了解更多
+                                <i class="iconfont icon-xiangyoujiantou"></i>
+                            </a>
+                        </div>
+                        <div class="message-mask"></div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- end phone-message -->
+
+        <!-- accordion start -->
+        <section id="accordion" class="accordion">
+            <div class="container">
+                <h3>
+                    <img src="./images/logo-3.png" alt="艾编程" width="130" height="44">
+                </h3>
+                <ul class="clearfix">
+                    <li class="active">
+                        <img src="./images/accordion-1.png" alt="清心美女" width="361" height="270">
+                        <p>清心美女</p>
+                    </li>
+                    <li>
+                        <img src="./images/accordion-2.png" alt="" width="361" height="270">
+                        <p>产品名称</p>
+                    </li>
+                    <li>
+                        <img src="./images/accordion-3.png" alt="" width="361" height="270">
+                        <p>产品名称</p>
+                    </li>
+                    <li>
+                        <img src="./images/accordion-4.png" alt="" width="361" height="270">
+                        <p>产品名称</p>
+                    </li>
+                    <li>
+                        <img src="./images/accordion-5.png" alt="" width="361" height="270">
+                        <p>产品名称</p>
+                    </li>
+                    <li>
+                        <img src="./images/accordion-6.png" alt="" width="361" height="270">
+                        <p>产品名称</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- end accordion -->
+
+        <!-- gallery start  -->
+        <section class="gallery">
+            <div class="container">
+                <div>
+                    <ul class="gallery-list clearfix">
+                        <li>
+                            <img src="./images/gallery-1.png" alt="萌宠系列" width="268" height="400">
+                        </li>
+                        <li>
+                            <img src="./images/gallery-2.png" alt="萌宠系列" width="233" height="233">
+                            <img src="./images/gallery-3.png" alt="萌宠系列" width="233" height="165">
+                        </li>
+                        <li class="gallery-item">
+                            <ul class="clearfix">
+                                <li><img src="./images/gallery-4.png" alt="萌宠系列" width="268" height="132"></li>
+                                <li>萌宠系列</li>
+                                <li> <img src="./images/gallery-5.png" alt="萌宠系列" width="191" height="267"></li>
+                                <li> <img src="./images/gallery-6.png" alt="萌宠系列" width="266" height="267"></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <img src="./images/gallery-7.png" alt="萌宠系列" width="265" height="400">
+                        </li>
+                    </ul>
+                    <div class="gallery-slider">
+                        <div class="slide-block"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end gallery -->
+    </main>
+    <!-- end main -->
+
+    <!-- footer start -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-service">
+                <ul class="clearfix">
+                    <li>
+                        <a href="javascript:;">
+                            <i class="iconfont icon-banshou"></i>
+                            预约维修服务
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <i class="iconfont icon-7tianwuliyoutuihuo"></i>
+                            7天无理由退货
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <i class="iconfont icon-15tianwuliyoutuihuo"></i>
+                            15天免费换货
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <i class="iconfont icon-liwu"></i>
+                            满69元包邮
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <i class="iconfont icon-31dingwei"></i>
+                            1100余家售后网点
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-links clearfix">
+                <dl>
+                    <dt>选购指南</dt>
+                    <dd><a src="javascript:;">手机</a></dd>
+                    <dd><a src="javascript:;">电视</a></dd>
+                    <dd><a src="javascript:;">笔记本</a></dd>
+                </dl>
+                <dl>
+                    <dt>服务中心</dt>
+                    <dd><a src="javascript:;">售后政策</a></dd>
+                    <dd><a src="javascript:;">维修服务价格</a></dd>
+                    <dd><a src="javascript:;">申请售后</a></dd>
+                </dl>
+                <dl>
+                    <dt>线下门店</dt>
+                    <dd><a src="javascript:;">Mini之家</a></dd>
+                    <dd><a src="javascript:;">服务网点</a></dd>
+                    <dd><a src="javascript:;">授权体验店/专区</a></dd>
+                </dl>
+                <dl>
+                    <dt>关于迷你</dt>
+                    <dd><a src="javascript:;">加入mini</a></dd>
+                    <dd><a src="javascript:;">了解mini</a></dd>
+                    <dd><a src="javascript:;">投资者关系</a></dd>
+                </dl>
+                <dl>
+                    <dt>关注我们</dt>
+                    <dd><a src="javascript:;">新浪微博</a></dd>
+                    <dd><a src="javascript:;">官方微信</a></dd>
+                    <dd><a src="javascript:;">联系我们</a></dd>
+                </dl>
+                <div class="telephone">
+                    <p>400-123-4567</p>
+                    <p>
+                        8:00-18:00
+                        <span>（仅收市话费）</span>
+                    </p>
+                    <a href="javascript:;">
+                        <i class="iconfont icon-duanxin"></i>
+                        人工客服
+                    </a>
+                </div>
+            </div>
+            <div class="copyright">ICODINGEDU | Copyright © 2019-present Arry | 陕 ICP 备 2022004903 号-1</div>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+    <!-- video-mask start -->
+    <div class="video-mask">
+        <div class="p-video">
+            <video src="./video/video.png" class="video" controls autoplay width="1000"></video>
+            <div class="mask-close">
+                <i>X</i>
+            </div>
+        </div>
+    </div>
+    <!-- end video-mask -->
+
+
+    <!-- 引入 swiper Js -->
+    <script src="./js/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            autoplay: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+
+        // 选项卡切换
+        (function () {
+            // 获取所有选项卡
+            var mLis = document.querySelectorAll(".music-list li");
+            // 获取所有音乐列表
+            var item = document.querySelectorAll(".music-items .music-items-list ");
+
+            for (var i = 0; i < item.length; i++) {
+                mLis[i].index = i;
+                // 当鼠标滑倒 music-list
+                mLis[i].onmouseover = function () {
+                    for (var j = 0; j < item.length; j++) {
+                        mLis[j].className = "";
+                        item[j].style.display = "none";
+                    }
+                    //  music-list 选中
+                    this.className = "active";
+                    // 显示 music-items
+                    item[this.index].style.display = "block";
+                }
+            }
+        })();
+
+
+        // video 弹窗
+        (function () {
+            // 获取一组视频 url 地址li元素
+            var vli = document.querySelectorAll(".p-video-items>ul>li");
+            // console.log(vli);
+
+            // 获取video 对象
+            var videoObj = document.getElementsByClassName("video");
+            // console.log(videoObj);
+
+            //获取弹窗
+            var mask = document.getElementsByClassName("video-mask");
+            // console.log(mask);
+
+            // 获取关闭按钮对象
+            var closeBtn = document.getElementsByClassName("mask-close");
+            // console.log(closeBtn);
+
+            for (var i = 0; i < vli.length; i++) {
+                vli[i].onclick = function () {
+                    var value = this.getAttribute("data-video-url");
+                    videoObj[0].setAttribute("src", value);
+                    mask[0].style.display = "block";
+                    // videoObj[0].play();
+                };
+            }
+
+            // 点击关闭按钮关闭 video-mask
+            closeBtn[0].onclick = function () {
+                mask[0].style.display = "none";
+                // videoObj[0].pause();
+            };
+        })();
+
+
+        // 手风琴
+        (function () {
+            var liObj = document.querySelectorAll(".accordion ul li");
+            for (var i = 0; i < liObj.length; i++) {
+                // 清楚所有 li 上面的 active
+                liObj[i].onmouseover = function () {
+                    for (var j = 0; j < liObj.length; j++) {
+                        liObj[j].classList.remove("active");
+                    }
+                    // 给当前 li 添加 active
+                    this.classList.add("active");
+                };
+            };
+        })();
+    </script>
+</body>
+
+</html>
